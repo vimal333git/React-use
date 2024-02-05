@@ -1,10 +1,9 @@
-import PdfToJpgConverter from "./Component/Test";
-import base64 from './Component/base64.json';
+import TestComponent from './Component/';
 
 function App() {
   return (
     <div className="App">
-      <PdfToJpgConverter />
+      <TestComponent />
     </div>
   );
 }
